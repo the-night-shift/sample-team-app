@@ -1,7 +1,7 @@
 class V1::PagesController < ApplicationController
   def index
 <<<<<<< HEAD
-    render json: {message: 'hello', messageX: "Eugenia"}
+    render json: {message: 'hello', messageX: 'Eugenia'}
 =======
 
     render json: {message: 'hello', message_new: 'Imron', name: 'becca'}
