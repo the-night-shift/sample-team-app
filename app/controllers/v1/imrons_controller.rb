@@ -1,5 +1,6 @@
 class V1::ImronsController < ApplicationController
-   def index
+  
+  def index
     render json: {message: 'Imrons stuff works'}
   end
 end
