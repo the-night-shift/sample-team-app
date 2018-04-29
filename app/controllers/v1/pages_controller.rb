@@ -3,4 +3,5 @@ class V1::PagesController < ApplicationController
     render json: {message_1: 'hello',
       message_2: 'Ben Sofer'
     }
-end
+  end
+end 
